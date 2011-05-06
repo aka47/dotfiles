@@ -1,0 +1,7 @@
+if [[ `whoami` == "root" ]]; then
+  export PS1="# "
+else
+  export PS1="$ "
+fi
+
+export HISTCONTROL="ignoredups"

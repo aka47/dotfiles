@@ -1,0 +1,14 @@
+color desert
+command! Rde :e config/locales/basic/de.yml
+command! Ren :e config/locales/basic/en.yml
+let mapleader = ","
+
+" Tags
+map <C-b> :BufExplorer<CR>
+map tt <Esc>:TlistToggle<CR>
+ab helllo hello
+ab Factoy Factory
+ab Factroy Factory
+ab lable label
+ab organzier organizer
+ab Fac Factory
